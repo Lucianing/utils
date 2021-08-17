@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "noEmit": false,
+    "target": "es5",
+    "lib": [
+      "esnext",
+      "es5",
+      "es6",
+      "dom"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@luzc/download-pdf",
+  "version": "1.0.0",
+  "description": "传入HTML节点下载pdf",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "minify": "minify lib/index.js ",
+    "build": ""
+  },
+  "keywords": [
+    "html2pdf"
+  ],
+  "author": "luzc",
+  "license": "ISC",
+  "dependencies": {
+    "html2canvas": "^1.3.2",
+    "jspdf": "^2.3.1"
+  },
+  "devDependencies": {
+    "minify": "^7.0.2"
+  }
+}
